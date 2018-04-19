@@ -32,6 +32,10 @@ data-extractor.py will loop over all files found in the 'Data' directory. It wil
 - map coordinates of each location,
 - Population of each location if found.
 8. New file will be created, result.json:
+
+JSON file structure:
+file[county][town][info]
+EXAMPLE:
 {
     "Bedfordshire": {
         "Ampthill": {
